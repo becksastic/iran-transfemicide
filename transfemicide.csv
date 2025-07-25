@@ -1,2 +1,8 @@
 case_id,victim_name,age,gender_identity,date_of_death,province,city_or_village,latitude,longitude,modus_operandi,relationship_to_offender,primary_source_url,secondary_sources,verified_by,notes
-IR-FS-2025-002,Sogand,23,Trans non-binary,2025-06-22,Fars,Kawar,29.208153,52.687971,Shooting,Family,unknown,unknown,RS,N
+IR-FS-2025-001,Sogand Pakdel,27,Trans woman,2025-06-22,Fars,Kavar,29.208153,52.687971,Shooting,Family,https://hengaw.net/fa/news/2025/07/article-163,,RS,N
+IR-EA-2024-001,Parsa,17,Trans non-binary,2024-01-30,East Azerbaijan,Tabriz,38.096239,46.2738013,Stabbing,Family,https://tdor.translivesmatter.info/reports/2024/01/31/parsa_tabriz-east-azerbaijan-iran_b01c1e14,,,
+IR-KH-2021-001,Alireza Fazeli Monfared,20,Other,2021-04-05,Khuzestan,Ahvaz,31.3183,48.6706,Stabbing,Family,https://www.amnesty.org/en/wp-content/uploads/2021/05/MDE1341292021ENGLISH.pdf,https://abcnews.go.com/International/gay-iranian-man-allegedly-killed-family-days-seeking/story?id=77690474,,
+IR-EA-2022-001,Mehrdad Karimpour,33,Other,2022-01-30,East Azerbaijan,Maragheh Prison,37.391,46.239,Other,Police,https://iranwire.com/en/prisoners/71206,,,
+IR-EA-2022-002,Farid Mohammadi,30,Other,2022-01-30,East Azerbaijan,Maragheh Prison,37.391,46.239,Other,Police,https://iranwire.com/en/prisoners/71206,,,
+IR-EA-2021-001,Farhad Najafi,25,Other,2021-07-05,East Azerbaijan,Maragheh Prison,37.391,46.239,Other,Police,https://iranhr.net/en/articles/4800,,,
+IR-EA-2021-002,Ali Ahmadi,23,Other,2021-07-05,East Azerbaijan,Maragheh Prison,37.391,46.239,Other,Police,https://iranhr.net/en/articles/4800,,,
