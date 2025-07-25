@@ -1,0 +1,146 @@
+{
+  "fields": [
+    {
+      "name": "case_id",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "pattern": "^IR-[A-Z]{2}-\\d{4}-\\d{3}$"
+      }
+    },
+    {
+      "name": "victim_name",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "age",
+      "type": "integer",
+      "constraints": {
+        "minimum": 1,
+        "maximum": 120
+      }
+    },
+    {
+      "name": "gender_identity",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Trans woman",
+          "Trans non-binary",
+          "Other"
+        ]
+      }
+    },
+    {
+      "name": "date_of_death",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "province",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Alborz",
+          "Ardabil",
+          "Bushehr",
+          "Chaharmahal and Bakhtiari",
+          "East Azerbaijan",
+          "Fars",
+          "Gilan",
+          "Golestan",
+          "Hamadan",
+          "Hormozgan",
+          "Ilam",
+          "Isfahan",
+          "Kerman",
+          "Kermanshah",
+          "Khuzestan",
+          "Kohgiluyeh and Boyer-Ahmad",
+          "Kurdistan",
+          "Lorestan",
+          "Markazi",
+          "Mazandaran",
+          "North Khorasan",
+          "Qazvin",
+          "Qom",
+          "Razavi Khorasan",
+          "Semnan",
+          "Sistan and Baluchestan",
+          "South Khorasan",
+          "Tehran",
+          "West Azerbaijan",
+          "Yazd",
+          "Zanjan"
+        ]
+      }
+    },
+    {
+      "name": "city_or_village",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "latitude",
+      "type": "number"
+    },
+    {
+      "name": "longitude",
+      "type": "number"
+    },
+    {
+      "name": "modus_operandi",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "Shooting",
+          "Stabbing",
+          "Beating",
+          "Strangulation",
+          "Other"
+        ]
+      }
+    },
+    {
+      "name": "relationship_to_offender",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "Family",
+          "Partner",
+          "Police",
+          "Stranger",
+          "Other"
+        ]
+      }
+    },
+    {
+      "name": "primary_source_url",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "secondary_sources",
+      "type": "string"
+    },
+    {
+      "name": "verified_by",
+      "type": "string"
+    },
+    {
+      "name": "notes",
+      "type": "string"
+    }
+  ]
+}
