@@ -31,7 +31,10 @@
         "enum": [
           "Trans woman",
           "Trans non-binary",
-          "Other"
+          "Other",
+          "Trans Man",
+          "Sexuality Related",
+          "Queer"
         ]
       }
     },
