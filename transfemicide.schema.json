@@ -5,7 +5,7 @@
       "type": "string",
       "constraints": {
         "required": true,
-        "pattern": "^IR-[A-Z]{2}-\\d{4}-\\d{3}$"
+        "pattern": "^([A-Z]{2})-[A-Z]{2,3}-\\d{4}-\\d{3}$"
       }
     },
     {
@@ -30,11 +30,59 @@
         "required": true,
         "enum": [
           "Trans woman",
-          "Trans non-binary",
+          "Trans man",
+          "Trans feminine",
+          "Trans masculine",
+          "Non-binary",
+          "Agender",
+          "Bigender",
+          "Genderqueer",
+          "Genderfluid",
+          "Demiboy",
+          "Demigirl",
+          "Two-spirit",
+          "Third gender",
+          "Hijra",
+          "Bakla",
+          "Xanith",
+          "Khanith",
+          "Mahu",
+          "Muxe",
+          "Fa'afafine",
+          "Intersex",
+          "Cis woman",
+          "Cis man",
+          "Questioning",
           "Other",
-          "Trans Man",
-          "Sexuality Related",
-          "Queer"
+          "Prefer not to say"
+        ]
+      }
+    },
+    {
+      "name": "sexuality",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "Asexual",
+          "Bisexual",
+          "Gay",
+          "Lesbian",
+          "Pansexual",
+          "Queer",
+          "Heterosexual",
+          "Demisexual",
+          "Graysexual",
+          "Androsexual",
+          "Gynesexual",
+          "Polysexual",
+          "Omnisexual",
+          "Sapiosexual",
+          "Skoliosexual",
+          "Romantic (homoromantic, biromantic, etc)",
+          "Fluid",
+          "Questioning",
+          "Other",
+          "Prefer not to say"
         ]
       }
     },
@@ -43,6 +91,17 @@
       "type": "date",
       "constraints": {
         "required": true
+      }
+    },
+    {
+      "name": "country",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Iran",
+          "Afghanistan"
+        ]
       }
     },
     {
@@ -81,7 +140,41 @@
           "Tehran",
           "West Azerbaijan",
           "Yazd",
-          "Zanjan"
+          "Zanjan",
+          "Badakhshan",
+          "Badghis",
+          "Baghlan",
+          "Balkh",
+          "Bamyan",
+          "Daykundi",
+          "Farah",
+          "Faryab",
+          "Ghazni",
+          "Ghor",
+          "Helmand",
+          "Herat",
+          "Jowzjan",
+          "Kabul",
+          "Kandahar",
+          "Kapisa",
+          "Khost",
+          "Kunar",
+          "Kunduz",
+          "Laghman",
+          "Logar",
+          "Nangarhar",
+          "Nimroz",
+          "Nuristan",
+          "Paktia",
+          "Paktika",
+          "Panjshir",
+          "Parwan",
+          "Samangan",
+          "Sar-e Pol",
+          "Takhar",
+          "Urozgan",
+          "Wardak",
+          "Zabul"
         ]
       }
     },
